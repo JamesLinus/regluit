@@ -12,6 +12,10 @@ from celery.task.sets import TaskSet
 import requests
 import os
 
+# http://stackoverflow.com/questions/27981545/suppress-insecurerequestwarning-unverified-https-request-is-being-made-in-pytho#comment54945951_28002687
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
 """
 django imports
 """
