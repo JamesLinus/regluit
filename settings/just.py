@@ -19,7 +19,7 @@ DATABASES = {
         'NAME': 'unglueit',
         'USER': 'root',
         'PASSWORD': 'forgetn0t',
-        'HOST': 'justdb.cboagmr25pjs.us-east-1.rds.amazonaws.com',
+        'HOST': 'justdb1.cboagmr25pjs.us-east-1.rds.amazonaws.com',
         'PORT': '',
         'TEST_CHARSET': 'utf8'
     }
@@ -154,7 +154,7 @@ AMAZON_FPS_HOST = "fps.sandbox.amazonaws.com"
 #AMAZON_FPS_HOST = "fps.amazonaws.com"
 
 # local settings for maintenance mode
-MAINTENANCE_MODE = False
+MAINTENANCE_MODE = True
 
 # Amazon keys to permit S3 access
 
