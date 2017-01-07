@@ -49,6 +49,6 @@ BASE_URL_SECURE = 'http://0.0.0.0/'
 
 
 
-# use database as queuing service in development
-BROKER_TRANSPORT = "djkombu.transport.DatabaseTransport"
-INSTALLED_APPS += ("djkombu",)
+# can use database as queuing service in development
+# BROKER_TRANSPORT = "djkombu.transport.DatabaseTransport"
+# INSTALLED_APPS += ("djkombu",)
